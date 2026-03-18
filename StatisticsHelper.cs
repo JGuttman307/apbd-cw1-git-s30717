@@ -25,4 +25,15 @@ public class StatisticsHelper
 
         return sum / valuez.Count;
     }
+    //metoda (może powinnam była użyć int[] od początku, a nie List,,)
+    public int CalculateMax(int[] values)
+    {
+        int max = values[0];
+        foreach (var v in values)
+        {
+            if(v>max) max = v;
+        }
+
+        return max;
+    }
 }
