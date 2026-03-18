@@ -13,4 +13,16 @@ public class StatisticsHelper
         }
         return sum;
     }
+
+    //ekstra metoda
+    public double Average(List<int> valuez)
+    {
+        double sum = 0;
+        foreach (var v in valuez)
+        {
+            sum += v;
+        }
+
+        return sum / valuez.Count;
+    }
 }
