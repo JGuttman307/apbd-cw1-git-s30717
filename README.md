@@ -1,0 +1,1 @@
+﻿Using README file to test non-fast-forward-merge.
