@@ -39,6 +39,11 @@ public class StatisticsHelper
 
     public int CalculateMin(int[] values)
     {
-        return 0;
+        int min = values[0];
+        foreach (var v in values)
+        {
+            if(v<min) min = v;
+        }
+        return min;
     }
 }
